@@ -1,12 +1,10 @@
-__author__ = 'Ёмиль'
-
 import setuptools
 
 with open("README.md", "r") as fh:
     long_description = fh.read()
 
 setuptools.setup(
-    name="example-pkg-cv_pack",
+    name="cv_package",
     version="0.0.1",
     author="Nishanov Emil",
     author_email="nero19970610@mail.ru",
