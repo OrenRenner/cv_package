@@ -16,6 +16,8 @@ def matching_SURF(train_image_path, test_image_path) - функция сопос
 
 train_image_path = 'images/place_all.jpg'
 
-
+<p align="center">
+  <img src="index.png" width="350">
+</p>
 
 test_image_path = 'images/place_1.jpg'
