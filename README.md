@@ -58,3 +58,26 @@ compute_harris_response(im, sigma=3), где im считанное изобра�
 Далее выявляем сами дискрипторы
 
 f_c = get_harris_points(res, 6), где res полученное изображение после функции compute_harris_response
+
+Воспользуйтесь кодом:
+
+from matplotlib import pyplot as plt
+
+plt.figure(figsize=(15, 15))
+
+plt.gray()
+
+plt.imshow(img)
+
+plt.plot([p[1] for p in f_c], [p[0] for p in f_c], '*')
+
+plt.axis('off')
+
+plt.show()
+
+
+Получите результат:
+
+<p align="center">
+  <img src="index7.png" width="500">
+</p>
