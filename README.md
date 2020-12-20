@@ -42,3 +42,15 @@ imshow(im2)
 Для просмотра ключевых точек используйте функцию
 compute_harris_response(im, sigma=3), где im считанное изображение
 
+Например:
+
+<p align="center">
+  <img src="index9.png" width="500">
+</p>
+
+Результат:
+
+<p align="center">
+  <img src="index9.png" width="500">
+</p>
+
