@@ -38,3 +38,7 @@ imshow(im2)
 <p align="center">
   <img src="index4.png" width="500">
 </p>
+
+Для просмотра ключевых точек используйте функцию
+compute_harris_response(im, sigma=3), где im считанное изображение
+
