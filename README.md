@@ -45,8 +45,9 @@ compute_harris_response(im, sigma=3), где im считанное изобра�
 Например:
 
 <p align="center">
-  <img src="index9.png" width="500">
+  <img src="index8.png" width="500">
 </p>
+
 
 Результат:
 
