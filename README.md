@@ -55,3 +55,6 @@ compute_harris_response(im, sigma=3), где im считанное изобра�
   <img src="index9.png" width="500">
 </p>
 
+Далее выявляем сами дискрипторы
+
+f_c = get_harris_points(res, 6), где res полученное изображение после функции compute_harris_response
