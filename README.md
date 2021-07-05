@@ -1,4 +1,4 @@
-# cv_package
+# msu_master
 Scientific Python
 
 
